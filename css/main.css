@@ -1,0 +1,83 @@
+body {
+    background-image: url('https://blog.trakdesk.com/wp-content/uploads/2016/08/background-light-green-1.png');
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: rgba(243, 146, 238, 0.918);
+    color: white;
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 750px;
+    height: 100px;
+    font-size: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    text-shadow: 5px 5px black;
+}
+
+img {
+    height: 275px;
+    border: 5px solid black;
+    border-radius: 30%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    /* margin-left: 450px; */
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    animation: imgrotate 4s infinite;
+    
+}
+img:hover {
+    border-color: rgb(56, 221, 34);
+}
+
+@keyframes imgrotate {
+    100%{transform: rotate(360deg);}
+}
+
+.opts {
+    /* border: 2px solid black; */
+    height: 200px;
+    margin-top: 30px;
+}
+.opt {
+    transition: 1s;
+    background-color: #bebaf1;
+    border-radius: 3%;
+    margin: 15px auto;
+    border:2px solid white;
+    width: 700px;
+    padding: 15px;
+    font-family: fantasy;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.opt:hover {
+    color: white;
+    cursor: pointer;
+    width: 725px;
+    height: 50px;
+    padding: 30px;
+    font-size: 45px;
+}
+
+
+.answers {
+    position: relative;
+    width: 100px;
+    left: 725px;
+    top: 20px;
+    font-size: 50px;
+    border: 5px solid rgb(99, 236, 99);
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 50px;
+    
+}

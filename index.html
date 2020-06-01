@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In picture</title>
+    <script src="https://kit.fontawesome.com/f4b51a9e99.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+    <h1>
+        <i class="fas fa-question-circle"></i> 
+            What's In The Picture 
+        <i class="fas fa-question-circle"></i>
+    </h1>
+
+    <div class="answers"> 0/5 </div>
+
+    <img id="pic" title="?.?"/>
+
+    <div class="opts">
+        <div id="0" onclick="checkAnswer(this)" class="opt opt1"></div>
+        <div id="1" onclick="checkAnswer(this)" class="opt opt2"></div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
